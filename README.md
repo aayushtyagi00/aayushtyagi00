@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero-3d.gif" alt="Aayush Tyagi — animated rotating 3D core with violet and cyan orbital rings" width="100%" />
+  <img src="./assets/hero-3d.gif" alt="Aayush Tyagi — rotating metallic 3D knot in amber and coral" width="100%" />
 </p>
 
 <p align="center">
@@ -8,11 +8,11 @@
   <a href="https://github.com/aayushtyagi00?tab=repositories">All Repositories</a>
 </p>
 
-### A little about me
+### `whoami`
 
 I'm Aayush, a developer from Uttar Pradesh, India. My projects explore web applications, AI assistants, and tools for real-world problems.
 
-### Selected work
+### `selected_work`
 
 | Project | What it's about |
 | :--- | :--- |
@@ -23,4 +23,19 @@ I'm Aayush, a developer from Uttar Pradesh, India. My projects explore web appli
 
 ---
 
-<p align="center"><sub>Ideas → code → experiences.</sub></p>
+### `github_stats`
+
+<p align="center">
+  <img src="./assets/github-stats.svg" alt="GitHub stats: public repositories, stars earned, and contributions" width="49%" />
+  <img src="./assets/top-languages.svg" alt="Top languages by code bytes in my own public repositories" width="49%" />
+</p>
+
+<p align="center">
+  <img src="./assets/streak.svg" alt="Public contributions, current streak, and longest streak over the past year" width="100%" />
+</p>
+
+<p align="center"><sub>Updated daily from public GitHub data. Streaks use the displayed contribution calendar; languages measure code bytes in my own public repositories.</sub></p>
+
+---
+
+<p align="center"><sub>Designed by curiosity. Built through experimentation.</sub></p>
