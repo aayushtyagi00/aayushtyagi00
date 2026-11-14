@@ -48,8 +48,6 @@ I'm Aayush, a developer from Uttar Pradesh, India. My projects explore web appli
   <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Anmol-Baranwal/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake from Anmol-Baranwal's profile" width="100%" />
 </p>
 
-<p align="center"><sub>Animation from <a href="https://github.com/Anmol-Baranwal">Anmol-Baranwal</a>'s contribution graph · Generated with <a href="https://github.com/Platane/snk">Platane/snk</a>.</sub></p>
-
 ---
 
 <p align="center"><sub>Designed by curiosity. Built through experimentation.</sub></p>
