@@ -28,10 +28,46 @@ Tools and technologies I'm learning and exploring through projects.
   <img src="./assets/tech-stack-tools.svg" alt="MongoDB, MySQL, PostgreSQL, Redis, Firebase, Docker, Git, GitHub, Figma, Vercel, AWS, Google Cloud" width="600" />
 </p>
 
-### `selected_work`
+### ✨ Selected Work
 
-| Project | What it's about |
-| :--- | :--- |
+A few projects I've built while learning, experimenting, and putting ideas into practice.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧭 ResQRoute</h3>
+      <p><strong>Exploring smarter evacuation planning.</strong></p>
+      <p>An emergency escape planner that brings together interactive maps, location-based routes, and Gemini-assisted guidance.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Gemini</code> <code>Leaflet</code></p>
+      <a href="https://github.com/aayushtyagi00/resqroute-emergency-escape-planner"><strong>Explore the code →</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 Memory AI</h3>
+      <p><strong>A place for knowledge you want to keep.</strong></p>
+      <p>A personal library for documents, notes, and reminders, with source-based AI answers that connect questions back to saved material.</p>
+      <p><code>Gemini</code> <code>Supabase</code> <code>Document search</code></p>
+      <a href="https://github.com/aayushtyagi00/memory-ai"><strong>Explore the code →</strong></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌿 Spice Tree</h3>
+      <p><strong>From the menu to the kitchen.</strong></p>
+      <p>A restaurant web app with online ordering, table reservations, live order tracking, and a kitchen dashboard for managing orders.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Firebase</code></p>
+      <a href="https://spicetree-restaurant.web.app"><strong>Visit the app ↗</strong></a> · <a href="https://github.com/aayushtyagi00/spice-tree">Source code</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>✦ Portfolio</h3>
+      <p><strong>A window into what I'm learning.</strong></p>
+      <p>My personal space for sharing projects, exploring design ideas, and documenting the things I build along the way.</p>
+      <p><code>Projects</code> <code>Experiments</code> <code>Learning</code></p>
+      <a href="https://new.aayushtyagi.live"><strong>Visit my portfolio ↗</strong></a> · <a href="https://github.com/aayushtyagi00/aayush-tyagi-portfolio">Source code</a>
+    </td>
+  </tr>
+</table>
+
+--- | :--- |
 | [ResQRoute](https://github.com/aayushtyagi00/resqroute-emergency-escape-planner) | AI-powered emergency escape and evacuation planning |
 | [Memory AI](https://github.com/aayushtyagi00/memory-ai) | A personal memory assistant using Gemini and grounded retrieval |
 | [Spice Tree](https://github.com/aayushtyagi00/spice-tree) | A restaurant application with kitchen tracking and reservations |
