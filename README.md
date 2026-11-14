@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/hero-3d.gif" alt="Aayush Tyagi — rotating metallic 3D knot in amber and coral" width="100%" />
+  <img src="./assets/studio-banner.jpg" alt="Aayush Tyagi — midnight coding studio with warm desk lighting and a rainy city skyline" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/terminal.gif" alt="Building useful web apps, exploring AI, and always learning" width="100%" />
 </p>
 
 <p align="center">

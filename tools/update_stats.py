@@ -49,7 +49,7 @@ if not days.get(end.isoformat(),0):end-=timedelta(days=1)
 current=0
 while days.get(end.isoformat(),0):current+=1;end-=timedelta(days=1)
 updated=TODAY.isoformat()
-BG='#100f12';BORDER='#3e2a24';GOLD='#ffb65b';CORAL='#f58e79';WHITE='#fff0dd';MUTED='#b6a39b'
+BG='#0b171c';BORDER='#244047';GOLD='#64d5cd';CORAL='#ffbd80';WHITE='#f2e6cf';MUTED='#92aeb2'
 def text(x,y,s,size=14,color=WHITE,weight=400,anchor='start'):
     return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-weight="{weight}" text-anchor="{anchor}" font-family="Segoe UI,Arial,sans-serif">{escape(str(s))}</text>'
 def svg(w,h,body,label):
@@ -61,7 +61,7 @@ body+=text(24,159,'PUBLIC DATA · '+updated,10,MUTED)
 (ROOT/'assets/github-stats.svg').write_text(svg(550,180,body,'Public GitHub statistics'),encoding='utf-8')
 body=text(24,34,'TOP LANGUAGES',13,GOLD,600)
 total=sum(langs.values()) or 1
-colors=[GOLD,CORAL,'#ead6ac','#d88055','#af6f70']
+colors=[GOLD,CORAL,'#d4dfb5','#80b5bc','#c4a687']
 x=24
 for i,(lang,count) in enumerate(langs.most_common(5)):
     width=502*count/total
