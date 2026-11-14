@@ -39,14 +39,14 @@ A few projects I've built while learning, experimenting, and putting ideas into 
       <p><strong>Exploring smarter evacuation planning.</strong></p>
       <p>An emergency escape planner that brings together interactive maps, location-based routes, and Gemini-assisted guidance.</p>
       <p><code>React</code> <code>TypeScript</code> <code>Gemini</code> <code>Leaflet</code></p>
-      <a href="https://github.com/aayushtyagi00/resqroute-emergency-escape-planner"><strong>Explore the code →</strong></a>
+      <a href="https://resqroute-jgo0.onrender.com"><strong>Visit the app ↗</strong></a> · <a href="https://github.com/aayushtyagi00/resqroute-emergency-escape-planner">Source code</a>
     </td>
     <td width="50%" valign="top">
       <h3>🧠 Memory AI</h3>
       <p><strong>A place for knowledge you want to keep.</strong></p>
       <p>A personal library for documents, notes, and reminders, with source-based AI answers that connect questions back to saved material.</p>
       <p><code>Gemini</code> <code>Supabase</code> <code>Document search</code></p>
-      <a href="https://github.com/aayushtyagi00/memory-ai"><strong>Explore the code →</strong></a>
+      <a href="https://memory-ai-two-eta.vercel.app"><strong>Visit the app ↗</strong></a> · <a href="https://github.com/aayushtyagi00/memory-ai">Source code</a>
     </td>
   </tr>
   <tr>
@@ -58,20 +58,14 @@ A few projects I've built while learning, experimenting, and putting ideas into 
       <a href="https://spicetree-restaurant.web.app"><strong>Visit the app ↗</strong></a> · <a href="https://github.com/aayushtyagi00/spice-tree">Source code</a>
     </td>
     <td width="50%" valign="top">
-      <h3>✦ Portfolio</h3>
-      <p><strong>A window into what I'm learning.</strong></p>
-      <p>My personal space for sharing projects, exploring design ideas, and documenting the things I build along the way.</p>
-      <p><code>Projects</code> <code>Experiments</code> <code>Learning</code></p>
-      <a href="https://new.aayushtyagi.live"><strong>Visit my portfolio ↗</strong></a> · <a href="https://github.com/aayushtyagi00/aayush-tyagi-portfolio">Source code</a>
+      <h3>🏨 Aurel Hotels</h3>
+      <p><strong>From finding a stay to managing bookings.</strong></p>
+      <p>A hotel website for exploring accommodation across cities and making reservations, with staff tools for bookings, room readiness, and guest management.</p>
+      <p><code>React</code> <code>Firebase</code> <code>Cloudflare Workers</code></p>
+      <a href="https://aurel-hotels.web.app"><strong>Visit the app ↗</strong></a> · <a href="https://github.com/aayushtyagi00/Aurel-Hotels-project">Source code</a>
     </td>
   </tr>
 </table>
-
---- | :--- |
-| [ResQRoute](https://github.com/aayushtyagi00/resqroute-emergency-escape-planner) | AI-powered emergency escape and evacuation planning |
-| [Memory AI](https://github.com/aayushtyagi00/memory-ai) | A personal memory assistant using Gemini and grounded retrieval |
-| [Spice Tree](https://github.com/aayushtyagi00/spice-tree) | A restaurant application with kitchen tracking and reservations |
-| [Portfolio](https://new.aayushtyagi.live) | My projects, experiments, and learning journey in one place |
 
 ---
 
