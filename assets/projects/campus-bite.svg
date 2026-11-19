@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 188" width="420" height="188">
+  <defs>
+    <linearGradient id="background">
+      <stop stop-color="#101a32"/>
+      <stop offset="1" stop-color="#493324"/>
+    </linearGradient>
+    <filter id="border-glow" x="0" y="0" width="420" height="188" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="halo"/>
+      <feComponentTransfer in="halo" result="bloom">
+        <feFuncA type="linear" slope="1.35"/>
+      </feComponentTransfer>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.4" result="light"/>
+      <feMerge>
+        <feMergeNode in="bloom"/>
+        <feMergeNode in="light"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .trail {
+      stroke-dasharray: 44 956;
+      stroke-dashoffset: var(--offset);
+      animation: trace 6.4s linear infinite;
+    }
+    @keyframes trace { to { stroke-dashoffset: calc(var(--offset) - 1000px); } }
+    @media (prefers-reduced-motion: reduce) { .trail { animation: none; } }
+  </style>
+  <rect x="7" y="7" width="406" height="174" rx="17" fill="url(#background)" stroke="#fcb48f" stroke-opacity=".32" />
+  <g transform="translate(253 13) scale(.40)">
+    <path d="M67 65v53h118V65" fill="#302c35" stroke="#fcb48f" stroke-width="3" stroke-linejoin="round"/>
+    <path d="m63 30 126 0 16 36H47Z" fill="#59403c" stroke="#fcb48f" stroke-width="3" stroke-linejoin="round"/>
+    <path d="m97 31-8 34m37-34v34m29-34 8 34M67 86h118" stroke="#fcb48f" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+    <path d="M93 116V97h32v19m16-19h25v13h-25z" fill="#fcb48f" opacity=".6"/>
+    <path d="M209 76h29" fill="none" stroke="#fcb48f" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/>
+    <circle cx="288" cy="76" r="43" fill="#332c3a" stroke="#ffd0b1" stroke-width="3"/>
+    <path d="M288 53v24l17 10" fill="none" stroke="#ffd0b1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="23" y="60" fill="#f2f6ff" font-size="27" font-weight="750">Campus Bite</text>
+    <text x="23" y="90" fill="#ced9ee" font-size="15">Browse food stalls and schedule a pickup</text>
+    <text x="23" y="110" fill="#ced9ee" font-size="15">on campus at LPU.</text>
+    <g fill="#e1eafe" font-size="11.5">
+    <rect x="23" y="143" width="60" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="53" y="158" text-anchor="middle">Next.js</text>
+    <rect x="89" y="143" width="79" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="128.5" y="158" text-anchor="middle">TypeScript</text>
+    <rect x="174" y="143" width="66" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="207" y="158" text-anchor="middle">Supabase</text>
+    </g>
+    <rect x="297" y="137" width="98" height="34" rx="13" fill="#0b1222" fill-opacity=".76" stroke="#fcb48f" stroke-opacity=".68"/>
+    <text x="308" y="159" fill="#f2f6ff" font-size="12" font-weight="650">Live demo</text>
+    <path d="M372 154h12m-5-5 5 5-5 5" fill="none" stroke="#fcb48f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="none" stroke-width="3.7" stroke-linecap="round" filter="url(#border-glow)">
+    <rect class="trail" x="7" y="7" width="406" height="174" rx="17" pathLength="1000" stroke="#4285f4" style="--offset:0px" />
+    <rect class="trail" x="7" y="7" width="406" height="174" rx="17" pathLength="1000" stroke="#ea4335" style="--offset:-28px" />
+    <rect class="trail" x="7" y="7" width="406" height="174" rx="17" pathLength="1000" stroke="#fbbc05" style="--offset:-56px" />
+    <rect class="trail" x="7" y="7" width="406" height="174" rx="17" pathLength="1000" stroke="#34a853" style="--offset:-84px" />
+  </g>
+</svg>
