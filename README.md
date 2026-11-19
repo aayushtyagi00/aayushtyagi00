@@ -2,22 +2,35 @@
   <img src="./assets/wave-top.svg" width="100%" alt="" />
 </p>
 
-<h1 align="center">Hi, I’m Aayush Tyagi</h1>
-
-<p align="center">
-  <strong>Computer science student building web apps and AI tools</strong>
-</p>
-
-<p align="center">
-  <a href="https://new.aayushtyagi.live">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/aayushtyagi00/">LinkedIn</a> ·
-  <a href="mailto:tyagiaayush3030@gmail.com">Email</a> ·
-  <a href="https://github.com/aayushtyagi00?tab=repositories">Repositories</a>
-</p>
-
 <p align="center">
   <img src="./assets/id-card.svg" width="100%" alt="Animated developer badge for Aayush Tyagi, @aayushtyagi00" />
 </p>
+
+<p align="center">
+  <img src="./assets/tagline.svg" width="400" alt="Ship fast. Learn faster." />
+</p>
+
+<p align="center">
+  <a href="https://github.com/aayushtyagi00?tab=repositories"><img height="23" src="https://img.shields.io/badge/GitHub-aayushtyagi00-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub repositories for aayushtyagi00" /></a>
+  <a href="https://www.instagram.com/aayush.tyagi/"><img height="23" src="https://img.shields.io/badge/Instagram-%40aayush.tyagi-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram @aayush.tyagi" /></a>
+  <a href="https://new.aayushtyagi.live"><img height="23" src="https://img.shields.io/badge/Portfolio-Visit-6D28D9?style=for-the-badge" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/aayushtyagi00/"><img height="23" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
+  <a href="mailto:tyagiaayush3030@gmail.com"><img height="23" src="https://img.shields.io/badge/Email-Say%20hello-395574?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Aayush" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aayushtyagi00&amp;color=22d3ee&amp;style=flat-square&amp;label=PROFILE+VIEWS" alt="Profile views for aayushtyagi00" />
+</p>
+
+---
+
+## ⚡ Tech stack
+
+<p align="center">
+  <img src="./assets/tech-stack.svg" width="760" alt="React, TypeScript, JavaScript, Node.js, Python, Tailwind CSS, Vite, Supabase, Git, GitHub, Figma, and Vercel" />
+</p>
+
+---
 
 ## About me
 
@@ -25,55 +38,20 @@ I’m a B.Tech computer science student from Uttar Pradesh, India, studying AI a
 
 ## 🚀 Selected work
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://memory-ai-two-eta.vercel.app"><img src="./assets/projects/memory-ai.svg" width="100%" alt="Open the Memory AI app" /></a>
-      <h3>Memory AI</h3>
-      <p>Save documents and notes, search them, and ask questions that link back to the original sources.</p>
-      <p><code>Gemini</code> <code>Supabase</code></p>
-      <a href="https://memory-ai-two-eta.vercel.app"><strong>Live demo</strong></a> ·
-      <a href="https://github.com/aayushtyagi00/memory-ai">Source code</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://resqroute-jgo0.onrender.com"><img src="./assets/projects/resqroute.svg" width="100%" alt="Open the ResQRoute app" /></a>
-      <h3>ResQRoute</h3>
-      <p>An evacuation-planning prototype that combines interactive maps, route alternatives, and an AI planning assistant.</p>
-      <p><code>React</code> <code>Leaflet</code> <code>Gemini</code></p>
-      <a href="https://resqroute-jgo0.onrender.com"><strong>Live demo</strong></a> ·
-      <a href="https://github.com/aayushtyagi00/resqroute-emergency-escape-planner">Source code</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://spicetree-restaurant.web.app"><img src="./assets/projects/spice-tree.svg" width="100%" alt="Open the Spice Tree app" /></a>
-      <h3>Spice Tree</h3>
-      <p>Restaurant ordering and table reservations with live order tracking and a dashboard for the kitchen.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Firebase</code></p>
-      <a href="https://spicetree-restaurant.web.app"><strong>Live demo</strong></a> ·
-      <a href="https://github.com/aayushtyagi00/spice-tree">Source code</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://aurel-hotels.web.app"><img src="./assets/projects/aurel-hotels.svg" width="100%" alt="Open the Aurel Hotels app" /></a>
-      <h3>Aurel Hotels</h3>
-      <p>A hotel booking site with staff tools for tracking room readiness, reservations, and guest details.</p>
-      <p><code>React</code> <code>Firebase</code> <code>Cloudflare Workers</code></p>
-      <a href="https://aurel-hotels.web.app"><strong>Live demo</strong></a> ·
-      <a href="https://github.com/aayushtyagi00/Aurel-Hotels-project">Source code</a>
-    </td>
-  </tr>
-</table>
-
-## ⚡ Tech stack
-
-<p>
-  <img src="./assets/tech-stack.svg" width="440" alt="React, TypeScript, Vite, Tailwind CSS, Supabase, Firebase, Git, and Vercel" />
+<p align="center">
+  <a href="https://github.com/aayushtyagi00/memory-ai"><img src="./assets/projects/memory-ai.svg" width="410" alt="Memory AI source code. Search saved notes and documents and ask questions that link to their sources. Built with Gemini and Supabase." /></a>
+  <a href="https://github.com/aayushtyagi00/resqroute-emergency-escape-planner"><img src="./assets/projects/resqroute.svg" width="410" alt="ResQRoute source code. Explore evacuation routes with interactive maps and an AI planning assistant. Built with React, Leaflet, and Gemini." /></a>
+  <a href="https://github.com/aayushtyagi00/spice-tree"><img src="./assets/projects/spice-tree.svg" width="410" alt="Spice Tree source code. Restaurant ordering and reservations with live kitchen tracking. Built with React, TypeScript, and Firebase." /></a>
+  <a href="https://github.com/aayushtyagi00/Aurel-Hotels-project"><img src="./assets/projects/aurel-hotels.svg" width="410" alt="Aurel Hotels source code. Hotel reservations and staff tools for rooms and guest details. Built with React, Firebase, and Cloudflare Workers." /></a>
 </p>
 
-- **Frontend** · React, TypeScript, Vite, Tailwind CSS
-- **Data and deployment** · Supabase, Firebase, Cloudflare Workers, Vercel
-- **AI and maps** · Google Gemini, document retrieval, Leaflet
-- **Version control** · Git and GitHub
+<p align="center">
+  <strong>Live demos</strong> ·
+  <a href="https://memory-ai-two-eta.vercel.app">Memory AI</a> ·
+  <a href="https://resqroute-jgo0.onrender.com">ResQRoute</a> ·
+  <a href="https://spicetree-restaurant.web.app">Spice Tree</a> ·
+  <a href="https://aurel-hotels.web.app">Aurel Hotels</a>
+</p>
 
 ## 📊 GitHub activity
 

@@ -1,25 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 142" width="420" height="142">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 188" width="420" height="188">
   <defs>
     <linearGradient id="background">
       <stop stop-color="#101a32"/>
       <stop offset="1" stop-color="#362657"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="418" height="140" rx="15" fill="url(#background)" stroke="#c4b5fd" stroke-opacity=".45"/>
-  <path d="M18 27v-9h9m375 97v9h-9" fill="none" stroke="#c4b5fd" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
-  <rect x="55" y="24" width="138" height="94" rx="12" fill="#272445" stroke="#c4b5fd"/>
-      <path d="M72 103V51m0 32h101v20M72 94h101M85 80V64c0-4 3-7 7-7h15c4 0 7 3 7 7v19m0-5h49c6 0 10 4 10 10" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="219" y="24" width="148" height="94" rx="12" fill="#29264a" stroke="#9485d4"/>
-      <path d="M219 49h148M245 19v14m96-14v14" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
-      <g fill="#544977">
-        <rect x="233" y="60" width="16" height="12" rx="3"/>
-        <rect x="259" y="60" width="16" height="12" rx="3"/>
-        <rect x="285" y="60" width="16" height="12" rx="3"/>
-        <rect x="311" y="60" width="16" height="12" rx="3"/>
-        <rect x="337" y="60" width="16" height="12" rx="3"/>
-        <rect x="233" y="84" width="16" height="12" rx="3"/>
-        <rect x="259" y="84" width="16" height="12" rx="3"/>
-        <rect x="337" y="84" width="16" height="12" rx="3"/>
-      </g>
-      <rect x="284" y="84" width="44" height="12" rx="4" fill="#c4b5fd"/>
+  <style>
+    .trail {
+      stroke-dasharray: 27 973;
+      stroke-dashoffset: var(--offset);
+      animation: trace 5.6s linear infinite;
+    }
+    @keyframes trace { to { stroke-dashoffset: calc(var(--offset) - 1000px); } }
+    @media (prefers-reduced-motion: reduce) { .trail { animation: none; } }
+  </style>
+  <rect x="5" y="5" width="410" height="178" rx="17" fill="url(#background)" stroke="#c4b5fd" stroke-opacity=".45" />
+  <g transform="translate(253 13) scale(.40)">
+    <rect x="55" y="24" width="138" height="94" rx="12" fill="#272445" stroke="#c4b5fd" />
+    <path d="M72 103V51m0 32h101v20M72 94h101M85 80V64c0-4 3-7 7-7h15c4 0 7 3 7 7v19m0-5h49c6 0 10 4 10 10" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="219" y="24" width="148" height="94" rx="12" fill="#29264a" stroke="#9485d4" />
+    <path d="M219 49h148M245 19v14m96-14v14" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round" />
+    <g fill="#544977">
+            <rect x="233" y="60" width="16" height="12" rx="3" />
+            <rect x="259" y="60" width="16" height="12" rx="3" />
+            <rect x="285" y="60" width="16" height="12" rx="3" />
+            <rect x="311" y="60" width="16" height="12" rx="3" />
+            <rect x="337" y="60" width="16" height="12" rx="3" />
+            <rect x="233" y="84" width="16" height="12" rx="3" />
+            <rect x="259" y="84" width="16" height="12" rx="3" />
+            <rect x="337" y="84" width="16" height="12" rx="3" />
+          </g>
+    <rect x="284" y="84" width="44" height="12" rx="4" fill="#c4b5fd" />
+  </g>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="23" y="60" fill="#f2f6ff" font-size="27" font-weight="750">Aurel Hotels</text>
+    <text x="23" y="90" fill="#ced9ee" font-size="15">Hotel bookings and staff tools for</text>
+    <text x="23" y="110" fill="#ced9ee" font-size="15">managing rooms, reservations, and guests.</text>
+    <g fill="#e1eafe" font-size="11.5">
+    <rect x="23" y="143" width="48" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="47" y="158" text-anchor="middle">React</text>
+    <rect x="77" y="143" width="66" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="110" y="158" text-anchor="middle">Firebase</text>
+    <rect x="149" y="143" width="129" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="213.5" y="158" text-anchor="middle">Cloudflare Workers</text>
+    </g>
+    <path d="M310 154h14m-5-5 5 5-5 5" fill="none" stroke="#c4b5fd" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="332" y="158" fill="#c4b5fd" font-size="11.5" font-weight="650">Source code</text>
+  </g>
+  <g fill="none" stroke-width="2.8" stroke-linecap="round">
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#4285f4" style="--offset:0px" />
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#ea4335" style="--offset:-31px" />
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#fbbc05" style="--offset:-62px" />
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#34a853" style="--offset:-93px" />
+  </g>
 </svg>

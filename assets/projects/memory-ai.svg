@@ -1,18 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 142" width="420" height="142">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 188" width="420" height="188">
   <defs>
     <linearGradient id="background">
       <stop stop-color="#101a32"/>
       <stop offset="1" stop-color="#1a2c58"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="418" height="140" rx="15" fill="url(#background)" stroke="#78d9ff" stroke-opacity=".45"/>
-  <path d="M18 27v-9h9m375 97v9h-9" fill="none" stroke="#78d9ff" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
-  <rect x="78" y="20" width="117" height="91" rx="10" fill="#172545" stroke="#56739a"/>
-      <rect x="66" y="30" width="117" height="91" rx="10" fill="#1a3152" stroke="#78d9ff"/>
-      <path d="M88 53h51M88 67h73M88 82h58M88 97h38" stroke="#78d9ff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
-      <path d="M185 74h35l20 17" fill="none" stroke="#78d9ff" stroke-width="2" stroke-dasharray="5 5"/>
-      <path d="M247 46h98a12 12 0 0 1 12 12v42a12 12 0 0 1-12 12h-80l-20 10v-10a12 12 0 0 1-10-12V58a12 12 0 0 1 12-12Z" fill="#23305c" stroke="#a78bfa"/>
-      <path d="M254 66h72M254 79h58" stroke="#a8b9eb" stroke-width="4" stroke-linecap="round"/>
-      <rect x="253" y="91" width="31" height="10" rx="5" fill="#78d9ff"/>
-      <rect x="292" y="91" width="22" height="10" rx="5" fill="#a78bfa"/>
+  <style>
+    .trail {
+      stroke-dasharray: 27 973;
+      stroke-dashoffset: var(--offset);
+      animation: trace 5.6s linear infinite;
+    }
+    @keyframes trace { to { stroke-dashoffset: calc(var(--offset) - 1000px); } }
+    @media (prefers-reduced-motion: reduce) { .trail { animation: none; } }
+  </style>
+  <rect x="5" y="5" width="410" height="178" rx="17" fill="url(#background)" stroke="#78d9ff" stroke-opacity=".45" />
+  <g transform="translate(253 13) scale(.40)">
+    <rect x="78" y="20" width="117" height="91" rx="10" fill="#172545" stroke="#56739a" />
+    <rect x="66" y="30" width="117" height="91" rx="10" fill="#1a3152" stroke="#78d9ff" />
+    <path d="M88 53h51M88 67h73M88 82h58M88 97h38" stroke="#78d9ff" stroke-width="4" stroke-linecap="round" opacity=".8" />
+    <path d="M185 74h35l20 17" fill="none" stroke="#78d9ff" stroke-width="2" stroke-dasharray="5 5" />
+    <path d="M247 46h98a12 12 0 0 1 12 12v42a12 12 0 0 1-12 12h-80l-20 10v-10a12 12 0 0 1-10-12V58a12 12 0 0 1 12-12Z" fill="#23305c" stroke="#a78bfa" />
+    <path d="M254 66h72M254 79h58" stroke="#a8b9eb" stroke-width="4" stroke-linecap="round" />
+    <rect x="253" y="91" width="31" height="10" rx="5" fill="#78d9ff" />
+    <rect x="292" y="91" width="22" height="10" rx="5" fill="#a78bfa" />
+  </g>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="23" y="60" fill="#f2f6ff" font-size="27" font-weight="750">Memory AI</text>
+    <text x="23" y="90" fill="#ced9ee" font-size="15">Search your notes and documents.</text>
+    <text x="23" y="110" fill="#ced9ee" font-size="15">Ask questions and get answers with sources.</text>
+    <g fill="#e1eafe" font-size="11.5">
+    <rect x="23" y="143" width="54" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="50" y="158" text-anchor="middle">Gemini</text>
+    <rect x="83" y="143" width="66" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="116" y="158" text-anchor="middle">Supabase</text>
+    </g>
+    <path d="M310 154h14m-5-5 5 5-5 5" fill="none" stroke="#78d9ff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="332" y="158" fill="#78d9ff" font-size="11.5" font-weight="650">Source code</text>
+  </g>
+  <g fill="none" stroke-width="2.8" stroke-linecap="round">
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#4285f4" style="--offset:0px" />
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#ea4335" style="--offset:-31px" />
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#fbbc05" style="--offset:-62px" />
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#34a853" style="--offset:-93px" />
+  </g>
 </svg>

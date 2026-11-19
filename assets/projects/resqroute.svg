@@ -1,21 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 142" width="420" height="142">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 188" width="420" height="188">
   <defs>
     <linearGradient id="background">
       <stop stop-color="#101a32"/>
       <stop offset="1" stop-color="#163c45"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="418" height="140" rx="15" fill="url(#background)" stroke="#5eead4" stroke-opacity=".45"/>
-  <path d="M18 27v-9h9m375 97v9h-9" fill="none" stroke="#5eead4" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
-  <g fill="#1d3c49" stroke="#315566">
-        <path d="m52 24 84 3 32 31-10 39-91 19-24-39Z"/>
-        <path d="m175 19 89 3 44 32-21 31-64 17-45-36Z"/>
-        <path d="m304 22 51 6 31 42-36 35-48-13 19-36Z"/>
-        <path d="m115 124 50-20 24 4 45 23H114ZM266 118l24-15 39 16 19 14h-85Z"/>
-      </g>
-      <path d="M49 103c26-20 67-40 98-40s63 29 96 34 83-11 133-46M90 30l43 27 16 30 48 31 44 10M238 30l-23 38-13 34M294 29l-10 50 14 37" fill="none" stroke="#6b879b" stroke-width="3" opacity=".55"/>
-      <path d="M74 96l60-30h44l40 29h54l63-40" fill="none" stroke="#5eead4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="74" cy="96" r="8" fill="#0d172b" stroke="#5eead4" stroke-width="4"/>
-      <path d="M335 43a10 10 0 0 1 10 10c0 6-10 15-10 15s-10-9-10-15a10 10 0 0 1 10-10Z" fill="#5eead4"/>
-      <circle cx="335" cy="53" r="3" fill="#0d172b"/>
+  <style>
+    .trail {
+      stroke-dasharray: 27 973;
+      stroke-dashoffset: var(--offset);
+      animation: trace 5.6s linear infinite;
+    }
+    @keyframes trace { to { stroke-dashoffset: calc(var(--offset) - 1000px); } }
+    @media (prefers-reduced-motion: reduce) { .trail { animation: none; } }
+  </style>
+  <rect x="5" y="5" width="410" height="178" rx="17" fill="url(#background)" stroke="#5eead4" stroke-opacity=".45" />
+  <g transform="translate(253 13) scale(.40)">
+    <g fill="#1d3c49" stroke="#315566">
+            <path d="m52 24 84 3 32 31-10 39-91 19-24-39Z" />
+            <path d="m175 19 89 3 44 32-21 31-64 17-45-36Z" />
+            <path d="m304 22 51 6 31 42-36 35-48-13 19-36Z" />
+            <path d="m115 124 50-20 24 4 45 23H114ZM266 118l24-15 39 16 19 14h-85Z" />
+          </g>
+    <path d="M49 103c26-20 67-40 98-40s63 29 96 34 83-11 133-46M90 30l43 27 16 30 48 31 44 10M238 30l-23 38-13 34M294 29l-10 50 14 37" fill="none" stroke="#6b879b" stroke-width="3" opacity=".55" />
+    <path d="M74 96l60-30h44l40 29h54l63-40" fill="none" stroke="#5eead4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="74" cy="96" r="8" fill="#0d172b" stroke="#5eead4" stroke-width="4" />
+    <path d="M335 43a10 10 0 0 1 10 10c0 6-10 15-10 15s-10-9-10-15a10 10 0 0 1 10-10Z" fill="#5eead4" />
+    <circle cx="335" cy="53" r="3" fill="#0d172b" />
+  </g>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="23" y="60" fill="#f2f6ff" font-size="27" font-weight="750">ResQRoute</text>
+    <text x="23" y="90" fill="#ced9ee" font-size="15">Explore evacuation routes with maps</text>
+    <text x="23" y="110" fill="#ced9ee" font-size="15">and AI-assisted planning.</text>
+    <g fill="#e1eafe" font-size="11.5">
+    <rect x="23" y="143" width="48" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="47" y="158" text-anchor="middle">React</text>
+    <rect x="77" y="143" width="60" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="107" y="158" text-anchor="middle">Leaflet</text>
+    <rect x="143" y="143" width="54" height="22" rx="11" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="170" y="158" text-anchor="middle">Gemini</text>
+    </g>
+    <path d="M310 154h14m-5-5 5 5-5 5" fill="none" stroke="#5eead4" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="332" y="158" fill="#5eead4" font-size="11.5" font-weight="650">Source code</text>
+  </g>
+  <g fill="none" stroke-width="2.8" stroke-linecap="round">
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#4285f4" style="--offset:0px" />
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#ea4335" style="--offset:-31px" />
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#fbbc05" style="--offset:-62px" />
+    <rect class="trail" x="5" y="5" width="410" height="178" rx="17" pathLength="1000" stroke="#34a853" style="--offset:-93px" />
+  </g>
 </svg>
