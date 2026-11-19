@@ -49,19 +49,24 @@ if not days.get(end.isoformat(),0):end-=timedelta(days=1)
 current=0
 while days.get(end.isoformat(),0):current+=1;end-=timedelta(days=1)
 updated=TODAY.isoformat()
-BG='#0b171c';BORDER='#244047';GOLD='#64d5cd';CORAL='#ffbd80';WHITE='#f2e6cf';MUTED='#92aeb2'
+BG='#11182d'
+BORDER='#394b74'
+PRIMARY='#78e3f6'
+ACCENT='#c4b5fd'
+WHITE='#eef4ff'
+MUTED='#adbbd5'
 def text(x,y,s,size=14,color=WHITE,weight=400,anchor='start'):
     return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-weight="{weight}" text-anchor="{anchor}" font-family="Segoe UI,Arial,sans-serif">{escape(str(s))}</text>'
 def svg(w,h,body,label):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{escape(label)}"><rect x="1" y="1" width="{w-2}" height="{h-2}" rx="16" fill="{BG}" stroke="{BORDER}"/>{body}</svg>\n'
-body=text(24,34,'GITHUB / BY THE NUMBERS',13,GOLD,600)
+body=text(24,34,'GITHUB OVERVIEW',13,PRIMARY,600)
 for i,(label,val) in enumerate([('Public repositories',len(repos)),('Stars earned',sum(r['stargazers_count'] for r in owned)),('Contributions · past year',sum(days.values()))]):
     x=24+165*i;body+=text(x,91,f'{val:,}',34,WHITE,700)+text(x,119,label,11,MUTED)
 body+=text(24,159,'PUBLIC DATA · '+updated,10,MUTED)
 (ROOT/'assets/github-stats.svg').write_text(svg(550,180,body,'Public GitHub statistics'),encoding='utf-8')
-body=text(24,34,'TOP LANGUAGES',13,GOLD,600)
+body=text(24,34,'TOP LANGUAGES',13,PRIMARY,600)
 total=sum(langs.values()) or 1
-colors=[GOLD,CORAL,'#d4dfb5','#80b5bc','#c4a687']
+colors=[PRIMARY,ACCENT,'#79e6c1','#fba6c4','#fbd38d']
 x=24
 for i,(lang,count) in enumerate(langs.most_common(5)):
     width=502*count/total
@@ -70,8 +75,8 @@ for i,(lang,count) in enumerate(langs.most_common(5)):
     body+=text(24+168*col,94+row*27,f'{lang}  {count/total:.1%}',12,colors[i])
 body+=text(24,159,'CODE BYTES · OWN PUBLIC REPOS · '+updated,10,MUTED)
 (ROOT/'assets/top-languages.svg').write_text(svg(550,180,body,'Top languages by code bytes in own public repositories'),encoding='utf-8')
-body=text(28,35,'CONSISTENCY / CONTRIBUTION STREAK',13,GOLD,600)
-for i,(label,val,color) in enumerate([('Contributions · past year',sum(days.values()),WHITE),('Current streak · days',current,GOLD),('Longest streak · past year',longest,CORAL)]):
+body=text(28,35,'CONTRIBUTION STREAK',13,PRIMARY,600)
+for i,(label,val,color) in enumerate([('Contributions · past year',sum(days.values()),WHITE),('Current streak · days',current,PRIMARY),('Longest streak · past year',longest,ACCENT)]):
     x=183+367*i
     body+=text(x,110,f'{val:,}',43,color,700,'middle')+text(x,144,label,14,MUTED,400,'middle')
     if i<2:body+=f'<path d="M {367*(i+1)} 66 V 158" stroke="{BORDER}"/>'
