@@ -39,10 +39,13 @@ I’m a B.Tech computer science student from Uttar Pradesh, India, studying AI a
 ## 🚀 Selected work
 
 <p align="center">
-  <a href="https://memory-ai-two-eta.vercel.app"><img src="./assets/projects/memory-ai.svg" width="410" alt="Open the Memory AI live demo. Search saved notes and documents and ask questions that link to their sources." /></a>
-  <a href="https://resqroute-jgo0.onrender.com"><img src="./assets/projects/resqroute.svg" width="410" alt="Open the ResQRoute live demo. Explore evacuation routes with interactive maps and an AI planning assistant." /></a>
-  <a href="https://campusbite-lpu.vercel.app"><img src="./assets/projects/campus-bite.svg" width="410" alt="Open the Campus Bite live demo. Browse campus food stalls and schedule a pickup at LPU." /></a>
-  <a href="https://aurel-hotels.web.app"><img src="./assets/projects/aurel-hotels.svg" width="410" alt="Open the Aurel Hotels live demo. Explore hotel reservations and staff tools for rooms and guest details." /></a>
+  <a href="https://memory-ai-two-eta.vercel.app"><img src="./assets/projects/memory-ai.svg" width="48%" alt="Open the Memory AI live demo. Search saved notes and documents and ask questions that link to their sources." /></a>
+  <a href="https://resqroute-jgo0.onrender.com"><img src="./assets/projects/resqroute.svg" width="48%" alt="Open the ResQRoute live demo. Explore evacuation routes with interactive maps and an AI planning assistant." /></a>
+</p>
+
+<p align="center">
+  <a href="https://campusbite-lpu.vercel.app"><img src="./assets/projects/campus-bite.svg" width="48%" alt="Open the Campus Bite live demo. Browse campus food stalls and schedule a pickup at LPU." /></a>
+  <a href="https://aurel-hotels.web.app"><img src="./assets/projects/aurel-hotels.svg" width="48%" alt="Open the Aurel Hotels live demo. Explore hotel reservations and staff tools for rooms and guest details." /></a>
 </p>
 
 <details>
