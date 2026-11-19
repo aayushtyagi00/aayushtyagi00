@@ -22,12 +22,11 @@
     .spectrum {
       transform-box: fill-box;
       transform-origin: center;
-      animation: rotate-glow 10s linear infinite;
+      animation: rotate-glow 8.5s linear infinite;
     }
     @keyframes rotate-glow { to { transform: rotate(1turn); } }
     @media (prefers-reduced-motion: reduce) { .spectrum { animation: none; } }
   </style>
-  <rect x="7" y="7" width="406" height="174" rx="17" fill="url(#background)" stroke="#fcb48f" stroke-opacity=".32" />
   <g mask="url(#perimeter)" opacity=".92">
     <g transform="translate(210 94) scale(1 .56)">
       <g class="spectrum">
@@ -40,6 +39,7 @@
       </g>
     </g>
   </g>
+  <rect x="7" y="7" width="406" height="174" rx="17" fill="url(#background)" stroke="#fcb48f" stroke-opacity=".32" />
   <g transform="translate(253 13) scale(.40)">
     <path d="M67 65v53h118V65" fill="#302c35" stroke="#fcb48f" stroke-width="3" stroke-linejoin="round"/>
     <path d="m63 30 126 0 16 36H47Z" fill="#59403c" stroke="#fcb48f" stroke-width="3" stroke-linejoin="round"/>
