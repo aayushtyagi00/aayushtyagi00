@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "public_repositories": 9,
   "stars_own_repos": 1,
-  "contributions_calendar_window": 88,
-  "current_streak": 3,
+  "contributions_calendar_window": 91,
+  "current_streak": 4,
   "longest_streak_calendar_window": 4,
   "window_start": "2025-11-16",
-  "window_end": "2026-11-20",
+  "window_end": "2026-11-21",
   "language_bytes": {
-    "TypeScript": 2057929,
-    "CSS": 81538,
-    "HTML": 596799,
+    "TypeScript": 2102369,
+    "CSS": 81745,
+    "HTML": 597174,
     "Python": 6673,
-    "JavaScript": 169750,
-    "PLpgSQL": 81358
+    "JavaScript": 182775,
+    "PLpgSQL": 115765
   }
 }
